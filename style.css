@@ -1,0 +1,536 @@
+@charset "UTF-8";
+body {
+  -webkit-text-size-adjust: 100%;
+  color: #4c4c4c;
+  font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, " メイリオ", Meiryo, Osaka, " ＭＳ Ｐゴシック", MS PGothic, " sans-serif";
+}
+
+main {
+  overflow: hidden;
+  background-color: #fff5f7;
+}
+
+.inner {
+  max-width: 580px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .inner {
+    max-width: 400px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .inner {
+    max-width: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+p {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.cmn-title {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.cmn-title p {
+  border-left: 14px solid #f4b3c2;
+  border-bottom: 2px dotted #f4b3c2;
+  color: #000;
+  font-size: 18px;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+@media print, screen and (max-width: 470px) {
+  .cmn-title p {
+    font-size: 17px;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .cmn-title .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .cmn-title .sp-470 {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .cmn-title .step {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .cmn-title .step {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .cmn-title .special {
+    display: none;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .cmn-title .special {
+    display: none;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: #f4b3c2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .footer .copyright {
+    font-size: 14px;
+  }
+}
+
+.title h1 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #ff388e;
+}
+
+@media print, screen and (max-width: 470px) {
+  .title h1 {
+    font-size: 18px;
+  }
+}
+
+.title .pr {
+  font-size: 12px;
+  color: #ccc;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+@media print, screen and (min-width: 470px) {
+  .title .sp {
+    display: none;
+  }
+}
+
+.my-story .box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 580px;
+}
+
+.my-story a {
+  color: #ff388e;
+}
+
+.my-story .pink {
+  color: #ff388e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 470px) {
+  .my-story .pink {
+    font-size: 18px;
+  }
+}
+
+.my-story .underline {
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .my-story .underline {
+    font-size: 18px;
+  }
+}
+
+.my-story .bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 470px) {
+  .my-story .bold {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .my-story .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .my-story .sp-470 {
+    display: none;
+  }
+}
+
+.review .box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.review .face-care {
+  text-align: center;
+}
+
+.review .effect-image01 {
+  margin-bottom: 30px;
+}
+
+.review .effect-image02 {
+  margin-bottom: 30px;
+}
+
+.review .pink {
+  color: #ff388e;
+  font-weight: bold;
+}
+
+.review .underline {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-weight: bold;
+}
+
+@media print, screen and (min-width: 650px) {
+  .review .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .review .sp-470 {
+    display: none;
+  }
+}
+
+.feature .box {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.feature .arrow {
+  text-align: center;
+}
+
+.feature .point1 {
+  margin-top: 80px;
+}
+
+.feature .point1 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .point1 .title {
+    display: block;
+  }
+}
+
+.feature .point2 {
+  margin-top: 80px;
+}
+
+.feature .point2 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .point2 .title {
+    display: block;
+  }
+}
+
+.feature .point3 {
+  margin-top: 80px;
+}
+
+.feature .point3 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .point3 .title {
+    display: block;
+  }
+}
+
+.feature .seibun-image {
+  margin-top: 60px;
+}
+
+.feature .pink {
+  color: #ff388e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .pink {
+    font-size: 16px;
+  }
+}
+
+.feature .underline {
+  font-size: 20px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media print, screen and (max-width: 650px) {
+  .feature .underline {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .underline {
+    margin-top: 10px;
+  }
+}
+
+.feature .bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media print, screen and (max-width: 470px) {
+  .feature .bold {
+    font-size: 16px;
+  }
+}
+
+@media print, screen and (min-width: 650px) {
+  .feature .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .feature .sp-470 {
+    display: none;
+  }
+}
+
+.credibility .box {
+  text-align: center;
+}
+
+.credibility .arrow {
+  text-align: center;
+}
+
+.credibility .doctor-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.credibility .influencer01 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.credibility .influencer02 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.credibility .influencer03 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.credibility .pink {
+  color: #ff388e;
+  font-weight: bold;
+}
+
+.credibility .underline {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+@media print, screen and (min-width: 650px) {
+  .credibility .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .credibility .sp-470 {
+    display: none;
+  }
+}
+
+.price .box {
+  text-align: center;
+}
+
+.price .price-image {
+  margin-top: 30px;
+}
+
+.price .underline {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+.price .pink {
+  color: #ff388e;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.price .underline {
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, #ffff66));
+  background: linear-gradient(transparent 0%, #ffff66 0%);
+  font-size: 18px;
+}
+
+@media print, screen and (min-width: 650px) {
+  .price .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .price .sp-470 {
+    display: none;
+  }
+}
+
+.conc .box {
+  text-align: center;
+}
+
+.conc .movie {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.conc .zaiko-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media print, screen and (min-width: 650px) {
+  .conc .sp {
+    display: none;
+  }
+}
+
+@media print, screen and (min-width: 470px) {
+  .conc .sp-470 {
+    display: none;
+  }
+}
+
+.btn {
+  height: 100px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn {
+    height: 60px;
+  }
+}
+
+.btn .btn-inner {
+  text-align: center;
+  margin-top: 60px;
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn .btn-inner {
+    margin-top: 40px;
+  }
+}
+
+.btn .btn-inner a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff0066;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 100vh;
+  font-size: 30px;
+}
+
+@media print, screen and (min-width: 500px) and (max-width: 650px) {
+  .btn .btn-inner a {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media print, screen and (max-width: 500px) {
+  .btn .btn-inner a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
